@@ -1,0 +1,137 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+} */
+
+body {
+  background-color: #000;
+}
+
+.second {
+  height: 494px;
+  background-color: #000;
+}
+
+.second_section {
+  display: flex;
+  align-items: auto;
+  justify-content: auto;
+  flex-direction: column;
+}
+
+.second_section h2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: rgba(228, 229, 234, 1);
+  text-align: start;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.smallpart_second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftpart_second {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftpart_second h3 {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  color: white;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 50px;
+}
+
+.leftpart_second h3 span {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.videopart_second {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.videopart_second img {
+  margin-right: 28px;
+}
+
+.videopart_second .small button {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background-color: transparent;
+}
+
+.videopart_second .small button img {
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(228, 229, 234, 1);
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.videopart_second .small p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(228, 229, 234, 1);
+}
+
+.rightpart_second {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 604px;
+  height: 425px;
+  background-color: linear-gradient(
+    205.61deg,
+    rgba(14, 16, 20, 0) 61.2%,
+    rgba(186, 86, 209, 0.32) 103.33%
+  );
+}
+
+.rightpart_second h3 {
+  color: rgba(228, 229, 234, 1);
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 64px;
+}
+
+.rightpart_second img {
+  margin-top: -103px;
+}
