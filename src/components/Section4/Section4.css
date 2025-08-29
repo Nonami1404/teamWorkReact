@@ -1,0 +1,410 @@
+.first_part_four {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.first_part_four .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first_part_four h2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 70px;
+}
+
+.first_part_four .left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.first_part_four .left h5 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.first_part_four .left h5 span {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.first_part_four .left p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.first_part_four .right,
+.first_part_four .right form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.first_part_four .right p {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(101, 101, 102, 1);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn button {
+  width: 262px;
+  height: 61px;
+  background-color: rgba(64, 119, 243, 1);
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 0;
+}
+
+.btn p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.btn p a {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+
+.secondpart_four h2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.secondpart_four .main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.secondpart_four .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondpart_four .left h4 {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.secondpart_four .left h4 span {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.secondpart_four .left p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  color: rgba(228, 229, 234, 1);
+  align-self: flex-start;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 100px;
+}
+
+.secondpart_four .right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.secondpart_four .right h5 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  color: rgba(228, 229, 234, 1);
+  align-self: flex-start;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.secondpart_four .ulpart .divider {
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  border-image-slice: 1;
+  margin-top: 12px;
+  margin-right: 5px;
+  width: 20px;
+  height: 1px;
+  margin-top: 10px;
+  border: none;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  flex-shrink: 0;
+}
+
+.secondpart_four .ulpart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.secondpart_four .ulpart li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.questions {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.questions p {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.questions button {
+  border: 0.5px solid rgba(37, 38, 44, 1);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: rgba(228, 229, 234, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.questions .btns {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: start;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+
+.questions .passive {
+  background-color: transparent;
+}
+
+.questions .active {
+  background-color: rgba(64, 119, 243, 1);
+}
+
+@media (max-width: 400px) {
+  .first_part_four {
+    align-items: center;
+  }
+  .first_part_four .main {
+    flex-direction: column;
+  }
+  .first_part_four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+  }
+  .first_part_four h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .secondpart_four .left {
+    align-items: center;
+    margin-right: 0px;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+  }
+  .first_part_four .left h5{
+    margin-bottom: 10px;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    margin-right: -130px;
+  }
+  .first_part_four .left p{
+    text-align: center;
+    align-self: center;
+    margin-right: -130px;
+  }
+  .first_part_four .left img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .first_part_four .right,
+  .first_part_four .right form {
+    align-items: center;
+    justify-content: center;
+  }
+  .first_part_four .right p{
+    text-align: center;
+  }
+  .btn{
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
+  .btn button{
+    align-self: center;
+    margin-right: 0px;
+  }
+  .btn p{
+    text-align: center;
+  }
+  .btn p a{
+    text-align: center;
+  }
+  .secondpart_four h2{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .secondpart_four .main{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .secondpart_four .left h4{
+    text-align: center;
+  }
+  .secondpart_four .left p{
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  .secondpart_four .right{
+    align-items: center;
+    justify-content: center;
+  }
+  .secondpart_four .right h5{
+    text-align: center;
+  }
+  .secondpart_four .ulpart .divider{
+    margin-top: 5px;
+    margin-right: 2px;
+  }
+  .secondpart_four .ulpart{
+    justify-content: center;
+  }
+  .questions{
+    align-items: center;
+  }
+  .questions p{
+    text-align: center;
+  }
+  .questions .btns{
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+}
